@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "name": "nameisnathalie",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nameisnathalie/v3.git"
+  },
+  "author": "Niña Nathalie",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nameisnathalie/v3/issues"
+  },
+  "homepage": "https://github.com/nameisnathalie/v3#readme"
+}
