@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nameisnathalie/v3.git"
+    "url": "git+https://github.com/nameisnathalie/nameisnathalie.github.io.git"
   },
   "author": "Niña Nathalie",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/nameisnathalie/v3/issues"
+    "url": "https://github.com/nameisnathalie/nameisnathalie.github.io/issues"
   },
-  "homepage": "https://github.com/nameisnathalie/v3#readme"
+  "homepage": "https://github.com/nameisnathalie/nameisnathalie.github.io#readme"
 }
