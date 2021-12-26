@@ -464,7 +464,7 @@ html {
 }
 
 body {
-  background-image: url("../images/nat-bg.jpg");
+  background-image: url("../images/mob/nat-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -488,6 +488,12 @@ body {
   body {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("../images/nat-bg.jpg");
   }
 }
 
@@ -1385,11 +1391,6 @@ body {
   background-color: rgb(222 248 120 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#CFFBFF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(207 251 255 / var(--tw-bg-opacity));
@@ -1398,6 +1399,11 @@ body {
 .bg-\[\#C1CEFB\] {
   --tw-bg-opacity: 1;
   background-color: rgb(193 206 251 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#EFFFB0\] {
@@ -2091,11 +2097,11 @@ main#project > ol {
   top: 50%;
   z-index: 5;
   display: flex;
+  list-style-type: none;
   flex-direction: column;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transform: translateY(-50%);
-  list-style-type: none;
 }
 
 @media (max-width: 1100px) {
@@ -2115,17 +2121,16 @@ main#project > ol > li {
 main#project > ol > li > a {
   position: relative;
   display: inline-block;
-  color: currentColor;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: "Metropolis_SemiBold";
-  font-weight: 500;
-  font-size: 10px;
-  letter-spacing: 0.6px;
+  height: 6rem;
   white-space: nowrap;
-  height: 24px;
-  line-height: 24px;
   text-align: left;
+  font-family: Metropolis_SemiBold, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  letter-spacing: 0.6px;
+  text-decoration: none;
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
@@ -2134,29 +2139,34 @@ main#project > ol > li > a:before {
   content: counter(customlistcounter);
   position: relative;
   display: inline-block;
-  width: 24px;
+  width: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 213 62 / var(--tw-bg-opacity));
+  text-align: center;
   height: inherit;
   line-height: inherit;
-  text-align: center;
-  background-color: #b9d53e;
   transition-duration: inherit;
   transition-timing-function: inherit;
   transition-property: background-color;
 }
 
-main#project > ol > li:hover > a:before,
-  main#project > ol > li > a.active:before {
-  background-color: #9da0f4;
+main#project > ol > li:hover > a:before, main#project > ol > li > a.active:before {
+  --tw-bg-opacity: 1;
+  background-color: rgb(157 160 244 / var(--tw-bg-opacity));
   transition-duration: 0.1s;
 }
 
 main#project > ol > li > a > span {
   position: relative;
   display: inline-block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 213 62 / var(--tw-bg-opacity));
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   height: inherit;
   line-height: inherit;
-  padding: 0 8px;
-  background-color: #b9d53e;
   transform: scaleX(0);
   transform-origin: left top;
   transition-property: background-color, transform;
@@ -2399,7 +2409,7 @@ main#project > ol > li:hover > a > span,
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:hover\:bg-blue-primary-color:hover {
+.dark .dark\:hover\:bg-\[\#4689f2\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(70 137 242 / var(--tw-bg-opacity));
 }
@@ -2679,6 +2689,11 @@ main#project > ol > li:hover > a > span,
     border-width: 0px;
   }
 
+  .md\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -2798,6 +2813,11 @@ main#project > ol > li:hover > a > span,
     --tw-space-x-reverse: 0;
     margin-right: calc(-8rem * var(--tw-space-x-reverse));
     margin-left: calc(-8rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
   .lg\:px-14 {
@@ -2921,6 +2941,11 @@ main#project > ol > li:hover > a > span,
   .xl\:bg-\[\#EFF3FF\] {
     --tw-bg-opacity: 1;
     background-color: rgb(239 243 255 / var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
   .xl\:bg-left {

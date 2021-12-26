@@ -11,9 +11,6 @@ module.exports = {
         "quinary-color": "#333333",
         "senary-color": "#F4F4F4",
         "septenary-color": "#1A1A1A",
-        //other-colors
-        "green-primary-color": "#73C851",
-        "blue-primary-color": "#4689f2",
       },
       fontFamily: {
         "ny-medium": "NewYorkExtraLarge_Medium, serif",
