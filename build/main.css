@@ -195,6 +195,16 @@
 }
 
 @layer utilities {
+  @media (min-width: 1520px) {
+    .cs-container {
+      @apply max-w-[1100px];
+    }
+
+    .img-1440 img {
+      @apply max-w-[1440px];
+    }
+  }
+
   /* switch image on hover */
   .hover-switch > svg:last-of-type {
     opacity: 1;
@@ -460,7 +470,7 @@
   }
 
   main#project > ol > li > a {
-    @apply relative inline-block uppercase no-underline font-metro-semibold font-medium text-[10px] tracking-[0.6px] whitespace-nowrap h-24 leading-6 text-left duration-[0.2s] ease-linear;
+    @apply relative inline-block uppercase no-underline font-metro-semibold font-medium text-[10px] tracking-[0.6px] whitespace-nowrap h-6 leading-6 text-left duration-[0.2s] ease-linear;
   }
 
   main#project > ol > li > a:before {

@@ -1774,6 +1774,16 @@ body {
   transition-duration: 150ms;
 }
 
+@media (min-width: 1520px) {
+  .cs-container {
+    max-width: 1100px;
+  }
+
+  .img-1440 img {
+    max-width: 1440px;
+  }
+}
+
 /* switch image on hover */
 
 .hover-switch > svg:last-of-type {
@@ -2121,7 +2131,7 @@ main#project > ol > li {
 main#project > ol > li > a {
   position: relative;
   display: inline-block;
-  height: 6rem;
+  height: 1.5rem;
   white-space: nowrap;
   text-align: left;
   font-family: Metropolis_SemiBold, sans-serif;
@@ -2689,11 +2699,6 @@ main#project > ol > li:hover > a > span,
     border-width: 0px;
   }
 
-  .md\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -2815,11 +2820,6 @@ main#project > ol > li:hover > a > span,
     margin-left: calc(-8rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .lg\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
   .lg\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -2933,6 +2933,11 @@ main#project > ol > li:hover > a > span,
     background-color: rgb(252 255 239 / var(--tw-bg-opacity));
   }
 
+  .xl\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
   .xl\:bg-\[\#F1FEFF\] {
     --tw-bg-opacity: 1;
     background-color: rgb(241 254 255 / var(--tw-bg-opacity));
@@ -2941,11 +2946,6 @@ main#project > ol > li:hover > a > span,
   .xl\:bg-\[\#EFF3FF\] {
     --tw-bg-opacity: 1;
     background-color: rgb(239 243 255 / var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
   .xl\:bg-left {
