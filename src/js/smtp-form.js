@@ -10,10 +10,10 @@ function contactForm() {
 
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "nameisnathalie@gmail.com",
-    Password: "sqamzvubjdkcetxv",
-    To: "nameisnathalie@gmail.com",
-    From: "nameisnathalie@gmail.com",
+    Username: "hello@nathalie.design",
+    Password: "tdbfbrlnnxldnqvb",
+    To: "hello@nathalie.design",
+    From: "hello@nathalie.design",
     Subject: "New Message From " + name + " 😆",
     Body: Body,
   }).then((message) => {
@@ -44,10 +44,10 @@ function requestQuote() {
 
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "nameisnathalie@gmail.com",
-    Password: "sqamzvubjdkcetxv",
-    To: "nameisnathalie@gmail.com",
-    From: "nameisnathalie@gmail.com",
+    Username: "hello@nathalie.design",
+    Password: "tdbfbrlnnxldnqvb",
+    To: "hello@nathalie.design",
+    From: "hello@nathalie.design",
     Subject: "New Quote Request From " + name + " 🥳",
     Body: Body,
   }).then((message) => {
