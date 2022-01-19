@@ -7,6 +7,11 @@
     scroll-behavior: smooth;
   }
 
+  a:hover,
+  button:hover {
+    cursor: cell;
+  }
+
   body {
     @apply bg-[url("../images/mob/nat-bg.jpg")] md:bg-[url("../images/nat-bg.svg")] bg-top bg-no-repeat bg-cover dark:bg-none dark:bg-septenary-color text-primary-color dark:text-gray-200 sm:text-base text-sm font-metro-regular font-normal;
   }
@@ -55,8 +60,9 @@
 
   /* rainbow heading text on hover */
   .heading span {
-    transition: color 0.2s;
-    transition-delay: 0.2s;
+    transition: color 2s;
+    transition-delay: 0s;
+    cursor: cell;
   }
 
   .heading span:hover {

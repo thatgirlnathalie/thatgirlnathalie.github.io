@@ -463,6 +463,11 @@ html {
   scroll-behavior: smooth;
 }
 
+a:hover,
+  button:hover {
+  cursor: cell;
+}
+
 body {
   background-image: url("../images/mob/nat-bg.jpg");
   background-size: cover;
@@ -560,8 +565,9 @@ body {
 /* rainbow heading text on hover */
 
 .heading span {
-  transition: color 0.2s;
-  transition-delay: 0.2s;
+  transition: color 2s;
+  transition-delay: 0s;
+  cursor: cell;
 }
 
 .heading span:hover {
