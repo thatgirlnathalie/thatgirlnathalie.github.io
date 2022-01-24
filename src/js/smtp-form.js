@@ -9,9 +9,9 @@ function contactForm() {
   //console.log(name, phone, email, message);
 
   Email.send({
-    Host: "smtp.gmail.com",
+    Host: "smtp.office365.com",
     Username: "hello@nathalie.design",
-    Password: "tdbfbrlnnxldnqvb",
+    Password: "hbyqnxwhqlfkfwjw",
     To: "hello@nathalie.design",
     From: "hello@nathalie.design",
     Subject: "New Message From " + name + " 😆",
@@ -43,9 +43,9 @@ function requestQuote() {
   var Body = "<b>Name:</b> <br> " + name + "<br><br><b>Email:</b> <br>" + email + "<br><br><b>Services:</b> <br>" + service + "<br><br><b>Budget:</b> <br>" + budget + "<br><br><b>Message:</b> <br>" + message;
 
   Email.send({
-    Host: "smtp.gmail.com",
+    Host: "smtp.office365.com",
     Username: "hello@nathalie.design",
-    Password: "tdbfbrlnnxldnqvb",
+    Password: "hbyqnxwhqlfkfwjw",
     To: "hello@nathalie.design",
     From: "hello@nathalie.design",
     Subject: "New Quote Request From " + name + " 🥳",
