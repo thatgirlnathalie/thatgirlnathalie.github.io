@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./index.html", "./contact/**/*.html", "./request-a-quote/**/*.html", "./about/**/*.html", "./case-studies/**/*.html", "./case-studies/easy-filter/index.html"],
+  content: ["./index.html", "./contact/**/*.html", "./request-a-quote/**/*.html", "./about/**/*.html", "./works/**/*.html", "./works/case-studies/easy-filter/index.html", "./works/case-studies/visual-search/index.html", "./works/case-studies/checkout-redesign/index.html"],
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
