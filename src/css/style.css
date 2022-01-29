@@ -1049,6 +1049,11 @@ body {
   position: relative;
 }
 
+.inset-y-0 {
+  top: 0px;
+  bottom: 0px;
+}
+
 .-left-3 {
   left: -0.75rem;
 }
@@ -1063,6 +1068,14 @@ body {
 
 .-left-8 {
   left: -2rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.left-0 {
+  left: 0px;
 }
 
 .col-span-2 {
@@ -1216,6 +1229,10 @@ body {
 
 .w-72 {
   width: 18rem;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .min-w-full {
@@ -3310,6 +3327,10 @@ main#project > ol > li:hover > a > span,
 
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
   }
 
   .md\:my-4 {
