@@ -1235,6 +1235,10 @@ body {
   width: 83.333333%;
 }
 
+.w-8\/12 {
+  width: 66.666667%;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -3384,6 +3388,10 @@ main#project > ol > li:hover > a > span,
     margin-bottom: 3.5rem;
   }
 
+  .md\:ml-auto {
+    margin-left: auto;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -3418,6 +3426,14 @@ main#project > ol > li:hover > a > span,
 
   .md\:w-5\/6 {
     width: 83.333333%;
+  }
+
+  .md\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:min-w-0 {
@@ -3571,6 +3587,10 @@ main#project > ol > li:hover > a > span,
   }
 
   .lg\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .lg\:w-10\/12 {
     width: 83.333333%;
   }
 
