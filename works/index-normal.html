@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../src/images/nn-favicon.svg" type="image/svg" sizes="16x16" />
 
     <meta property="og:image" content="https://nathalie.design/src/images/image-preview.png" />
     <meta property="og:image:type" content="image/png" />
@@ -15,17 +16,11 @@
     <meta name="keywords" content="Niña, Nathalie, designer, ux designer, product designer, web designer, front-end designer, branding" />
     <meta name="author" content="Niña Nathalie" />
 
-    <title>Niña Nathalie | Home</title>
-
-    <link rel="icon" href="src/images/nn-favicon.svg" type="image/svg" sizes="16x16" />
-
-    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Niña Nathalie | Case Studies</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
 
     <!-- icon fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
-    <!-- aos -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-219918981-1"></script>
@@ -57,7 +52,7 @@
     </script>
   </head>
 
-  <body>
+  <body class="bg-white dark:bg-septenary-color text-primary-color dark:text-gray-200 sm:text-base text-sm font-metro-regular font-normal">
     <div id="site-border"></div>
 
     <div class="md:my-4">
@@ -163,7 +158,7 @@
                 </a>
 
                 <div class="flex flex-col md:inline-flex md:flex-row items-center uppercase md:gap-12 text-xs">
-                  <a target="_blank" href="#" class="min-w-full md:min-w-0 text-center md:inline-flex md:w-auto hover:text-secondary-color border-b md:border-0 border-quaternary-color">
+                  <a target="_blank" href="#" target="_blank" class="min-w-full md:min-w-0 text-center md:inline-flex md:w-auto hover:text-secondary-color border-b md:border-0 border-quaternary-color">
                     <span class="block align-middle py-4 md:py-2">Resume</span>
                   </a>
                   <a href="/contact/" class="min-w-full md:min-w-0 text-center md:inline-flex md:w-auto hover:text-secondary-color">
@@ -194,24 +189,87 @@
       </header>
 
       <section>
-        <div class="container pt-20 px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
-          <div class="nn-title border-b-2 border-white py-10 sm:py-16">
-            <div class="grid md:grid-cols-3 grid-rows-1">
-              <div class="md:col-span-2">
-                <div class="featured-text relative font-ny-medium sm:text-4xl text-3xl font-medium pb-2 md:pb-5">
-                  <h1 class="heading">Hello, I am Niña Nathalie 👋🏼</h1>
-                  <h1 class="heading">I’m a Product Designer based in Dubai.</h1>
-                </div>
+        <div class="container pt-36 lg:pt-40 px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72 mb-4 md:mb-12">
+          <div class="nn-title grid grid-rows-1">
+            <h1 class="heading font-ny-medium sm:text-4xl text-3xl font-medium pb-2 md:pb-5">Case Studies</h1>
+            <h2 class="font-metro-extralight text-lg md:text-xl mb-2">Here's a selection of some of my recently completed projects covering a wide range of design disciplines</h2>
+          </div>
+        </div>
+      </section>
 
-                <p class="text-justify md:text-left leading-relaxed xl:leading-7">
-                  As a designer with over 4+ years of experience, I wear many hats. <br class="break-web" />
-                  However, UX design piqued my interest.
-                  <span class="typewriter">Building a seamless experience for the user and much more is like <span class="typewriter-text text-[#9DA0F4] font-semibold pr-2.5 border-r border-primary-color dark:border-white" data-text='[ "building a better future." ]'></span></span>
-                </p>
+      <section>
+        <div class="container px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72 mb-6 text-primary-color dark:text-primary-color">
+          <div class="pb-10 sm:pb-8">
+            <div class="grid lg:grid-cols-2 grid-rows-1 gap-4 xl:gap-6">
+              <div>
+                <a href="/works/case-studies/visual-search/" class="dark:hover:text-gray-200">
+                  <div class="case-img">
+                    <!-- <img src="images/img_1.jpg" alt="" /> -->
+                    <picture>
+                      <source media="(min-width: 900px)" srcset="images/img_1.jpg" />
+                      <source media="(min-width: 0)" srcset="images/mob/img_1.jpg" />
+                      <img width="2560" height="716" src="images/img_1.jpg" />
+                    </picture>
 
-                <div class="mt-5">
-                  <a class="nn-btn nn-btn-primary btn-arrow giff" href="/about/"> Tell Me More <span class="arrow-icon">→</span> </a>
+                    <div class="top-left">
+                      <p class="font-metro-semibold mb-1">BFL + Syte’s Visual Search & Product Discovery</p>
+                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> RESEARCH <span class="px-3">|</span> PROTOTYPING</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a href="/works/case-studies/checkout-redesign/" class="dark:hover:text-gray-200">
+                  <div class="case-img">
+                    <!-- <img src="images/img_2.jpg" alt="" /> -->
+                    <picture>
+                      <source media="(min-width: 900px)" srcset="images/img_2.jpg" />
+                      <source media="(min-width: 0)" srcset="images/mob/img_2.jpg" />
+                      <img width="2560" height="716" src="images/img_2.jpg" />
+                    </picture>
+
+                    <div class="top-left">
+                      <p class="font-metro-semibold mb-1">Checkout Process Redesign & Optimization</p>
+                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> RESEARCH <span class="px-3">|</span> PROTOTYPING</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a href="/works/case-studies/easy-filter/" class="dark:hover:text-gray-200">
+                  <div class="case-img">
+                    <!-- <img src="images/img_3.jpg" alt="" /> -->
+                    <picture>
+                      <source media="(min-width: 900px)" srcset="images/img_3.jpg" />
+                      <source media="(min-width: 0)" srcset="images/mob/img_3.jpg" />
+                      <img width="2560" height="716" src="images/img_3.jpg" />
+                    </picture>
+
+                    <div class="top-left">
+                      <p class="font-metro-semibold mb-1">Quick & Easy Filter for Shoppers</p>
+                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> RESEARCH <span class="px-3">|</span> PROTOTYPING</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <!-- <a href="#" target="_blank" class="dark:hover:text-gray-200"> -->
+                <div class="case-img">
+                  <picture>
+                    <source media="(min-width: 900px)" srcset="images/img_4.jpg" />
+                    <source media="(min-width: 0)" srcset="images/mob/img_4.jpg" />
+                    <img width="2560" height="716" src="images/img_4.jpg" />
+                  </picture>
+
+                  <!-- <div class="top-left">
+                      <p class="font-metro-semibold mb-1">Lorem Ipsum Dolor Sit</p>
+                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> RESEARCH <span class="px-3">|</span> PROTOTYPING</p>
+                    </div> -->
                 </div>
+                <!-- </a> -->
               </div>
             </div>
           </div>
@@ -219,64 +277,155 @@
       </section>
 
       <section>
-        <div class="pt-10 md:pt-16">
-          <div class="container px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
-            <div class="nn-featured mb-12 xl:mb-16 3xl:mb-24">
-              <h3 class="font-metro-semibold font-semibold tracking-tight lg:tracking-normal">Here’s some of the latest and greatest of my previous works:</h3>
+        <div class="container px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72 mb-4 md:mb-12">
+          <div class="nn-title grid grid-rows-1">
+            <h1 class="heading font-ny-medium sm:text-4xl text-3xl font-medium pb-2 md:pb-5">Landing Pages</h1>
+            <h2 class="font-metro-extralight text-lg md:text-xl mb-2">Aside from designing experiences, I was also in charge of creating promotional landing pages for a whole year round of campaigns and promotions, and here are several of them.</h2>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <style>
+          .other {
+            opacity: 0.5;
+            -o-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -webkit-transition: 0.5s;
+            /* ...and now for the proper property */
+            transition: 0.5s;
+          }
+        </style>
+        <div class="container px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72 mb-6">
+          <div data-aos="fade-in">
+            <div class="grid grid-flow-col xl:grid-cols-3 grid-rows-2 overflow-x-auto xl:overflow-visible gap-2 md:gap-4 4xl:gap-6 pb-5">
+              <div class="w-72">
+                <div class="w-full">
+                  <a href="https://www.figma.com/proto/VfTP2BM164xBsybMKhKNR0/03---Promotional-Campaigns?node-id=317%3A45378&scaling=scale-down-width&page-id=1%3A6&hotspot-hints=0&hide-ui=1" target="_blank" class="">
+                    <div class="tilt-box-wrap">
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <div class="tilt-box" style="background-image: url(images/img_5.jpg); background-size: cover"></div>
+                    </div>
+
+                    <img src="images/img_5.jpg" alt="" class="nn-hover" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="w-72">
+                <div class="w-full">
+                  <a href="https://www.brandsforless.com/en-ae/homes-for-less/" target="_blank" class="">
+                    <div class="tilt-box-wrap">
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <div class="tilt-box" style="background-image: url(images/img_8.jpg); background-size: cover"></div>
+                    </div>
+
+                    <img src="images/img_8.jpg" alt="" class="nn-hover" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="w-72">
+                <div class="w-full">
+                  <a href="/mumuso/" target="_blank" class="">
+                    <div class="tilt-box-wrap">
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <div class="tilt-box" style="background-image: url(images/img_6.jpg); background-size: cover"></div>
+                    </div>
+
+                    <img src="images/img_6.jpg" alt="" class="nn-hover" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="w-72">
+                <div class="w-full">
+                  <a href="https://www.figma.com/proto/VfTP2BM164xBsybMKhKNR0/03---Promotional-Campaigns?node-id=101%3A89058&scaling=scale-down-width&page-id=1%3A5&hide-ui=1" target="_blank" class="">
+                    <div class="tilt-box-wrap">
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <div class="tilt-box" style="background-image: url(images/img_9.jpg); background-size: cover"></div>
+                    </div>
+
+                    <img src="images/img_9.jpg" alt="" class="nn-hover" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="w-72">
+                <div class="w-full">
+                  <a href="https://www.figma.com/proto/VfTP2BM164xBsybMKhKNR0/03---Promotional-Campaigns?node-id=101%3A6401&scaling=scale-down-width&page-id=1%3A4&hide-ui=1" target="_blank" class="">
+                    <div class="tilt-box-wrap">
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <div class="tilt-box" style="background-image: url(images/img_7.jpg); background-size: cover"></div>
+                    </div>
+
+                    <img src="images/img_7.jpg" alt="" class="nn-hover" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="w-72">
+                <div class="w-full">
+                  <a href="/gift-guide-2020/" target="_blank" class="">
+                    <div class="tilt-box-wrap">
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <span class="tilt-over"></span>
+                      <div class="tilt-box" style="background-image: url(images/img_10.jpg); background-size: cover"></div>
+                    </div>
+
+                    <img src="images/img_10.jpg" alt="" class="nn-hover" />
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <div class="nn-featured">
-            <a href="/works/">
-              <div class="px-0 xl:bg-[#FCFFEF] dark:bg-septenary-color lg:dark:bg-tertiary-color xl:h-340 3xl:h-380 4xl:h-380 flex w-full items-center justify-center xl:mb-32 3xl:mb-48 4xl:mb-48 mb-6">
-                <div class="container xl:flex items-center xl:-space-x-32 px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
-                  <div class="bg-[url(../images/img_1.png)] 3xl:bg-[url(../images/md/img_1.png)] 4xl:bg-[url(../images/lg/img_1.png)] bg-[#DEF878] bg-contain bg-center xl:bg-left bg-no-repeat xl:w-5/6 w-full 4xl:h-525 3xl:h-525 lg:h-425 md:h-320 h-250"></div>
-                  <div class="xl:w-3/6 w-full xl:h-340 3xl:h-380 4xl:h-380 xl:bg-white dark:bg-septenary-color py-5 xl:py-10 xl:px-10 flex flex-wrap content-center">
-                    <div class="nn-featured-content">
-                      <h1 class="heading font-ny-medium font-medium text-2xl md:text-3xl mb-2 xl:leading-8">Brands For Less + Syte's Visual Search & Product Discovery</h1>
-                      <h2 class="font-metro-extralight font-extralight text-base md:text-lg mb-2">Revolutionizing e-commerce with visual AI</h2>
-                      <p class="mb-6 leading-relaxed xl:leading-7 text-justify">Brands For Less sought to deliver a next-generation search and discovery experience with bespoke solutions.</p>
-                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> RESEARCH <span class="px-3">|</span> PROTOTYPING</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div data-aos="fade-in" class="nn-featured">
-            <a href="/works/">
-              <div class="px-0 xl:bg-[#F1FEFF] dark:bg-septenary-color lg:dark:bg-tertiary-color xl:h-340 3xl:h-380 4xl:h-380 flex w-full items-center justify-center xl:mb-32 3xl:mb-48 4xl:mb-48 mb-6">
-                <div class="container xl:flex items-center xl:-space-x-32 px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
-                  <div class="bg-[url(../images/img_2.png)] bg-contain bg-center xl:bg-left bg-no-repeat bg-[#CFFBFF] xl:w-5/6 w-full 4xl:h-525 3xl:h-525 lg:h-425 md:h-320 h-250"></div>
-                  <div class="xl:w-3/6 w-full xl:h-340 3xl:h-380 4xl:h-380 xl:bg-white dark:bg-septenary-color py-5 xl:py-10 xl:px-10 flex flex-wrap content-center">
-                    <div class="nn-featured-content">
-                      <h1 class="heading font-ny-medium font-medium text-2xl md:text-3xl mb-2">Quick & Easy Filter for Shoppers</h1>
-                      <h2 class="font-metro-extralight font-extralight text-base 2xl:text-lg mb-2 text-justify">Experience a fast and easy way to shop.</h2>
-                      <p class="mb-6 leading-relaxed xl:leading-7 text-justify">Concurrent with the launch of the new Brands for Less' website and the surge in online platform, Brands for Less aims to increase retention and engagement of shoppers.</p>
-                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> RESEARCH <span class="px-3">|</span> PROTOTYPING</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div data-aos="fade-in" class="nn-featured">
-            <a href="/works/">
-              <div class="px-0 xl:bg-[#EFF3FF] dark:bg-septenary-color lg:dark:bg-tertiary-color xl:h-340 3xl:h-380 4xl:h-380 flex w-full items-center justify-center xl:mb-32 3xl:mb-48 4xl:mb-48 mb-6">
-                <div class="container xl:flex items-center xl:-space-x-32 px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
-                  <div class="bg-[url(../images/img_3.png)] bg-contain bg-center xl:bg-left bg-no-repeat bg-[#C1CEFB] xl:w-5/6 w-full 4xl:h-525 3xl:h-525 lg:h-425 md:h-320 h-250" style="background-image: url(src/images/img_3.png)"></div>
-                  <div class="xl:w-3/6 w-full xl:h-340 3xl:h-380 4xl:h-380 xl:bg-white dark:bg-septenary-color py-5 xl:py-10 xl:px-10 flex flex-wrap content-center">
-                    <div class="nn-featured-content">
-                      <h1 class="heading font-ny-medium font-medium text-2xl md:text-3xl mb-2">Brands For Less Checkout Process Redesign & Optimization</h1>
-                      <!-- <h2 class="font-metro-extralight font-extralight text-base 2xl:text-lg mb-2">Streamlining Brands For Less' Mobile App's Checkout Process</h2> -->
-                      <p class="mb-6 leading-relaxed xl:leading-7">Due to its fast pace development and complicated checkout process, Brands For Less aims to simplify its complex delivery and payment method.</p>
-                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> COMPETITIVE STUDIES <span class="px-3">|</span> PROTOTYPING</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
           </div>
         </div>
       </section>
@@ -352,14 +501,15 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <script src="src/js/dark-mode.js"></script>
-    <script src="src/js/mobile-menu.js"></script>
-    <script src="src/js/typewriter.js"></script>
-    <script src="src/js/navbar-shadow.js"></script>
+    <script src="../src/js/dark-mode.js"></script>
+    <script src="../src/js/mobile-menu.js"></script>
+    <script src="../src/js/navbar-shadow.js"></script>
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-    <script src="src/js/newsletter.js"></script>
-    <script src="src/js/hover-img.js"></script>
-    <script src="src/js/heading.js"></script>
+    <script src="../src/js/newsletter.js"></script>
+    <script src="../src/js/heading.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../src/js/smtp-form.js"></script>
 
     <script src="//code.tidio.co/dkkofce3sfciujumn6f5y9gvfkgtrfas.js" async></script>
 
