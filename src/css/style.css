@@ -1449,6 +1449,11 @@ body {
   background-color: rgb(45 45 45 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#E1E8FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 232 255 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\.\.\/images\/img_1\.png\)\] {
   background-image: url(../images/img_1.png);
 }
@@ -1459,6 +1464,10 @@ body {
 
 .bg-\[url\(\.\.\/images\/img_3\.png\)\] {
   background-image: url(../images/img_3.png);
+}
+
+.bg-\[url\(\.\.\/images\/img_4\.png\)\] {
+  background-image: url(../images/img_4.png);
 }
 
 .bg-contain {
@@ -3760,6 +3769,11 @@ main#project > ol > li:hover > a > span,
     background-color: rgb(239 243 255 / var(--tw-bg-opacity));
   }
 
+  .xl\:bg-\[\#F5F8FF\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 248 255 / var(--tw-bg-opacity));
+  }
+
   .xl\:bg-left {
     background-position: left;
   }
@@ -3843,6 +3857,10 @@ main#project > ol > li:hover > a > span,
     background-image: url(../images/md/img_1.png);
   }
 
+  .\33xl\:bg-\[url\(\.\.\/images\/md\/img_4\.png\)\] {
+    background-image: url(../images/md/img_4.png);
+  }
+
   .\33xl\:px-52 {
     padding-left: 13rem;
     padding-right: 13rem;
@@ -3885,6 +3903,10 @@ main#project > ol > li:hover > a > span,
 
   .\34xl\:bg-\[url\(\.\.\/images\/lg\/img_1\.png\)\] {
     background-image: url(../images/lg/img_1.png);
+  }
+
+  .\34xl\:bg-\[url\(\.\.\/images\/lg\/img_4\.png\)\] {
+    background-image: url(../images/lg/img_4.png);
   }
 
   .\34xl\:px-72 {
